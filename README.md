@@ -18,4 +18,4 @@ We test our model on three datasets, namely MovieLens-1M. MOOCs and Last.fm, and
 
 Before running our model, please download the oracle embedding file from https://pan.baidu.com/s/1XAR9thNt8PTHSvPQ8P2p-g （the password is hwj3）, and put the oracle embedding file in the corresponding folder. For example, you can download the mooc oracle embedding file, and put it in the mooc folder.  
 
-For the pre-traning process, run ' python GeneralConv.py ', which consists of three GNNs pre-training models (GraphSAGE, GAT and LightGCN) or ' python FastGCNConv.py ' in the FastGCN folder or ' python FBNEConv.py ' in the FBNE folder. For the downstream recommendation process, run ' python downstream trainer ' in the basic folder or the FastGCN/FBNE folder. 
+For the pre-traning process, run ' python GeneralConv.py ', which consists of three GNNs pre-training models (GraphSAGE, GAT and LightGCN) or ' python FastGCNConv.py ' in the FastGCN folder or ' python FBNEConv.py ' in the FBNE folder. For the downstream recommendation process, run ' python downstream_trainer.py ' in the basic folder or the FastGCN/FBNE folder. 
