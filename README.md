@@ -14,7 +14,7 @@ torch == 1.3.1
 
 
 Runing instructions:
-We test our model on three datasets, namely MovieLens-1M. MOOCs and Last.fm, and each dataset contains a folder. Each folder contrains five GNNs models, in which three models are contained in the GeneralConv.py, and two other models are contained in the FastGCN folder and the FBNE folder. 
+We test our model on three datasets, namely MovieLens-1M, MOOCs and Last.fm, and each dataset contains a folder. Each folder contrains five GNNs models, in which three models are contained in the GeneralConv.py, and two other models are contained in the FastGCN folder and the FBNE folder. 
 
 Before running our model, please download the oracle embedding files from https://pan.baidu.com/s/1XAR9thNt8PTHSvPQ8P2p-g (the password is hwj3), and put the oracle embedding files in the corresponding folders. For example, you can download the mooc oracle embedding file, and put it in the mooc folder.  
 
