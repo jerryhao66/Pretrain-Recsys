@@ -83,8 +83,8 @@ pre_train_u_aaax_path = './mooc_oracle_ebd/3rd_u.npy'
 ##### downstream recommendation ######
 Ks = [20]
 downstream_meta_train_file = '../Mooc_downstream/mooc/user_task_meta_train.csv'
-downstream_support_file = '../Mooc_downstream/mooc/support_1_shot.csv'
-downstream_query_file = '../Mooc_downstream/mooc/query_1_shot.csv'
+downstream_support_file = '../Mooc_downstream/mooc/support.csv'
+downstream_query_file = '../Mooc_downstream/mooc/query.csv'
 decay = 1e-5
 
 
