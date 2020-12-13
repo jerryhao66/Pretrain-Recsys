@@ -79,6 +79,6 @@ pre_train_u_aaax_path = './lastfm_oracle_ebd/3rd_u.npy'
 ##### downstream recommendation ######
 Ks = [200]
 downstream_meta_train_file = '../lastfm_downstream/lastfm/user_task_meta_train.csv'
-downstream_support_file = '../lastfm_downstream/lastfm/support_2_shot.csv'
-downstream_query_file = '../lastfm_downstream/lastfm/query_2_shot.csv'
+downstream_support_file = '../lastfm_downstream/lastfm/support.csv'
+downstream_query_file = '../lastfm_downstream/lastfm/query.csv'
 decay = 1e-5
